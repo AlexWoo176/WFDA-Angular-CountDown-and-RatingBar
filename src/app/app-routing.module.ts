@@ -5,9 +5,9 @@ import {CountdownTimerGetSetComponent} from './countdown-timer-get-set/countdown
 import {RatingBarComponent} from './rating-bar/rating-bar.component';
 
 const routes: Routes = [
-  { path: "countdown-time", component: CountdownTimerComponent },
-  { path: "rating-bar", component: RatingBarComponent },
-  { path: "countdown-time-get-set", component: CountdownTimerGetSetComponent },
+  {path: 'countdown-time', component: CountdownTimerComponent},
+  {path: 'rating-bar', component: RatingBarComponent},
+  {path: 'countdown-time-get-set', component: CountdownTimerGetSetComponent},
 ];
 
 @NgModule({
